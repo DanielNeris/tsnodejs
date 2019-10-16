@@ -1,43 +1,56 @@
 const posts = [
   {
+    id: 5,
+    title: "VUTTR",
+    description: `The application developed for the Bossa-box challenge. Consists in a tool repository, where you can add, list, remove, and search for tools.
+    For this solution, I used Styled Components, Unform, and Redux. Was Awesome! 
+    `,
+
+    techs: "redux - styled-components - unform",
+    image: "https://i.ibb.co/ZLGs2D8/vuttr.jpg",
+    code: "https://github.com/juliomerisio/vuttr",
+    look: "https://github.com/juliomerisio/vuttr"
+  },
+  {
     id: 1,
     title: "GoBarber",
-    description: `Aplicação de agendamento de serviços com cabelereiros, suporta login e cadastro de usuários, envio de notificações por e-mail,
-    seleção de datas e dias, assim como página de perfil, envio de formulários e mais.
-    É construída com o padração MVC, contém toda a parte de CRUD de usuário e Agendamentos.  
+    description: `Schedule with barbers application supports login, users signup, e-mail notifications,
+     appointment date selection, as well profile page and form sending.
+    The Backend was built with de  MVC pattern, contain all de CRUD system.
+     the front-end constructed with react and react native gives us an excellent consumption of data visually appealing. 
 
     `,
     techs: "express - redux - styled-components - react-navigation",
     image: "https://i.ibb.co/D8g6DW1/GoBarber.jpg",
     code: "https://github.com/juliomerisio/GoBarber-FullStack",
-    look: "https://www.juliomerisio.com"
+    look: "https://github.com/juliomerisio/GoBarber-FullStack"
   },
   {
     id: 2,
     title: "Rocketshoes",
-    description: `Aplicação que simula um e-commerce, tem por objetivo fixar os conceitos de redux com redux saga, onde possibilita
-    o compartilhamento de estado entre components. Utiliiza React Router Dom para tratativa das rotas e Styled Components na estilização`,
+    description: `An e-commerce simulation. The main goal with this app was to retain all the redux concepts,
+     where you can share state with all the components. For routes, I used React Router Dom, and for styling, I applied Styled components;`,
     techs: "styled-components - redux - react router dom",
     image: "https://i.ibb.co/R3mTszr/rocketshoes.jpg",
     code: "https://github.com/juliomerisio/Rocketshoes-Redux",
-    look: "https://www.juliomerisio.com"
+    look: "https://github.com/juliomerisio/Rocketshoes-Redux"
   },
   {
     id: 4,
     title: "AirCnC",
-    description: `Aplicação desenvolvida durante a nona semana OmniStack ministrada pela RocketSeat, tem por objetivo evidenciar
-     o potencial da Stack Node, React e React Native. Com ela é possível cadastrar locais disponíveis para locação, bem como solicitar
-     a alocação do mesmo. Tudo em tempo real graças ao socket.io.
+    description: `
+    Spot rent application, developed during the OmniStack week, has, by reason, show the Node, React, and React Native Stack potential. 
+    With these technologies, it is possible to register spots, and request visit in real-time, thanks for the socket.io.
     `,
     techs: "express - socket.io - react-navigation",
     image: "https://i.ibb.co/F61DLZr/aircnc.jpg",
     code: "https://github.com/juliomerisio/AirCnC-FullStack",
-    look: "https://www.juliomerisio.com"
+    look: "https://github.com/juliomerisio/AirCnC-FullStack"
   },
   {
     id: 3,
     title: "Rocketfy",
-    description: `Projeto baseado no pipefy, utilizado para fins de estudo a cerca da funcionalidade de Drag and Drop`,
+    description: `This application is a copy of the Pipefy, with the aim practice the drag and drop functionality.`,
     techs: "react-dnd - react - styled-components",
     image: "https://i.ibb.co/ZKbjJRh/rocketfy.jpg",
     code: "https://github.com/juliomerisio/Rocketfy-DragDrop",

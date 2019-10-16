@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FaGithub, FaEye } from "react-icons/fa";
+import { FaGithub, FaEye, FaEyeSlash } from "react-icons/fa";
 import Button from "../Button";
 import { Container } from "./styles";
 import posts from "./Posts";
@@ -25,7 +25,11 @@ export default function PortfolioItem() {
                   Code
                 </Button>
                 <Button target="_blank" href={post.look}>
-                  <FaEye size={20} color="#fff" />
+                  {post.look === "" ? (
+                    <FaEyeSlash size={20} color="#fff" />
+                  ) : (
+                    <FaEye size={20} color="#fff" />
+                  )}
                   Look
                 </Button>
               </div>

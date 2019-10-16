@@ -19,32 +19,24 @@ export default function About() {
   return (
     <Layout center id="about">
       <Title>About</Title>
-      <SubTitle>Briefly, if you want to know who I'm</SubTitle>
+      <SubTitle>if you want to know who I'm</SubTitle>
       <Container>
         <Paragraph>
-          I'm 25 years old Brazillian, based in Guarapuava Paraná. Who Studies
-          Software Engineering at Unicesumar. I code since December 2018, With
-          focus on JavaScript, I invest hours in studies about the topic. I'm
-          self taught, curious and commited person. Beyond programming I like to
-          read, run, talk and play video games.
-          {/* Sou Brasileiro, tenho 25 anos, e moro em Guarapuava no Paraná. Estudo
-          Engenharia de Software, pela faculdade Unicesumar. Programo desde
-          Dezembro de 2018, Atualmente com foco em javascript, invisto horas em
-          estudos sobre o tema. Me considero autodidata, curioso e dedicado
-          naquilo que me proponho realizar. Além de programar, gosto de ler,
-          praticar corrida, conversar e jogar video game. */}
+          I'm a 25 years old Brazillian, based in Guarapuava Paraná. Who Studies
+          Software Engineering at Unicesumar. I have fun with code since
+          December 2018, building small projects with HTML, CSS, and JavaScript,
+          I invest hours in studies about these topics. I'm a self-taught,
+          curious, and committed person. I've been studying Nodejs, React, and
+          React Native since April of this year. Beyond programming, I like to
+          read, run, talk, study English, and play video games.
         </Paragraph>
         <Paragraph>
           Challenging projects makes my eyes shine and grabs my attention. I
-          follow the dilema, Give me a ask and i give you a solve.
-          {/* Projetos que me desafiam me fazem brilhar os olhos e seguram minha
-          atenção. Sigo o dilema, faça-me uma pergunta que eu lhe dou uma
-          solução. */}
+          follow the dilemma, Give me an ask, and I give you a solution.
         </Paragraph>
         <Paragraph>
-          Nowadays I'm available for freelance work with the following
-          tecnologies.
-          {/* Atualmente atuo como freelancer utilizando as tecnologias: */}
+          Nowadays, I'm available for freelance work with the following
+          technologies.
         </Paragraph>
 
         <TechList>
