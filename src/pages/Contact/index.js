@@ -22,7 +22,7 @@ export default function Contact() {
           Feel free to send me a message.
         </Link>
 
-        <p>Mande with ♥ by Julio Merisio</p>
+        <p>Made with ♥ by Julio Merisio</p>
       </Container>
     </Layout>
   );
