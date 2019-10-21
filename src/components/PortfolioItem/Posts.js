@@ -4,7 +4,7 @@ const posts = [
     title: "Pokedex",
     description: `The application developed for the LiveOnSolutions challenge. Consists in a pokedex, where you can add, list, and remove Pokemons.
     For this solution, I used Styled Components, Unform, and Redux. It was Awesome!`,
-    techs: "react-dnd - react - styled-components",
+    techs: "redux - styled-components - unform",
     image: "https://i.ibb.co/bBmH7SM/pokedex.png",
     code: "https://github.com/juliomerisio/pokedex",
     look: "https://pokedex-challenge.netlify.com/"
