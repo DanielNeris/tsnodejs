@@ -10,7 +10,7 @@ export const H2 = styled.h2`
   font-weight: normal;
   color: ${props => props.theme.colors.neutral};
   margin-top: 1.5rem;
-  position: relative;
+  /* position: relative; */
 `;
 
 export default function SubTitle({ children, ...rest }) {

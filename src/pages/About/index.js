@@ -1,44 +1,26 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import Title from "../../components/Title";
-import SubTitle from "../../components/SubTitle";
 import Paragraph from "../../components/Paragraph";
 
 import { Container, TechList, TechItem } from "./styles";
 
-const techItem = [
-  "Node.js",
-  "Express",
-  "React",
-  "React Native",
-  "Styled Components",
-  "Redux"
-];
+const techItem = ["Node.js", "ReactJS", "React Native", "Express.js", "Redux"];
 
 export default function About() {
   return (
     <Layout center id="about">
       <Title>About</Title>
-      <SubTitle>if you want to know who I'm</SubTitle>
       <Container>
         <Paragraph>
-          I'm a 25 years old Brazillian, based in Guarapuava Paraná. Who Studies
-          Software Engineering at Unicesumar. I have fun with code since
-          December 2018, building small projects with HTML, CSS, and JavaScript,
-          I invest hours in studies about these topics. I'm a self-taught,
-          curious, and committed person. I've been studying Nodejs, React, and
-          React Native since April of this year. Beyond programming, I like to
-          read, run, talk, study English, and play video games.
+          I'm 20 years old, I live in Brazil, in the countryside of Barra
+          Bonita, in São Paulo. I'm currently studying Computer Science at
+          UNISAGRADO. I started in the technology area in mid-2016, when I took
+          my first Computer Technician course and fell in love. I really like
+          the JavaScript ecosystem and today I'm focused on studying Node.js,
+          ReactJS and React Native. In my spare time, I like to play multiplayer
+          games with my friends, listen to music, program and study English.
         </Paragraph>
-        <Paragraph>
-          Challenging projects makes my eyes shine and grabs my attention. I
-          follow the dilemma, Give me an ask, and I give you a solution.
-        </Paragraph>
-        <Paragraph>
-          Nowadays, I'm available for freelance work with the following
-          technologies.
-        </Paragraph>
-
         <TechList>
           {techItem.map(tech => (
             <TechItem key={tech}>{tech}</TechItem>

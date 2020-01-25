@@ -1,13 +1,13 @@
 import React from "react";
-
 import styled from "styled-components";
 import { Link } from "react-scroll";
-import Logo from "../assets/logo.svg";
+import { FaLinkedin, FaGithub, FaStackOverflow } from "react-icons/fa";
+import Logo from "../assets/logo.png";
 
 export const Container = styled.div`
-  height: 6rem;
+  height: 10rem;
   width: 100%;
-
+  background: #7159c1;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -27,9 +27,10 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0 19rem;
+  height: 10rem;
 
   img {
-    width: 2rem;
+    width: 5rem;
   }
 
   @media ${props => props.theme.mediaQueries.larger} {
@@ -43,6 +44,7 @@ export const StyledLink = styled(Link)`
   font-family: "Lexend Deca", sans-serif;
   transition: all 0.2s;
   cursor: pointer;
+  padding: 0 5px;
 
   color: ${props => props.theme.colors.mainDark};
   &:hover {
@@ -50,13 +52,18 @@ export const StyledLink = styled(Link)`
   }
 `;
 export const Navbar = styled.div`
-  width: 20rem;
+  /* width: 20rem; */
   display: flex;
   justify-content: space-around;
+  align-items: center;
 
   cursor: pointer;
   @media ${props => props.theme.mediaQueries.small} {
     display: none;
+  }
+
+  a {
+    padding: 0 5px;
   }
 `;
 
@@ -72,7 +79,7 @@ export default function Nav() {
           offset={-70}
           duration={700}
         >
-          <img src={Logo} alt="logo" />
+          <img width="200" src={Logo} alt="logo" />
         </StyledLink>
 
         <Navbar>
@@ -84,7 +91,7 @@ export default function Nav() {
             offset={-70}
             duration={700}
           >
-            About
+            ABOUT
           </StyledLink>
           <StyledLink
             activeClass="active"
@@ -94,7 +101,7 @@ export default function Nav() {
             offset={-70}
             duration={700}
           >
-            Portfolio
+            PORTFOLIO
           </StyledLink>
           <StyledLink
             activeClass="active"
@@ -104,8 +111,30 @@ export default function Nav() {
             offset={-70}
             duration={700}
           >
-            Contact
+            CONTACT
           </StyledLink>
+
+          <a
+            href="https://github.com/DanielNeris"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={24} color="#fff" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/danielneris/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={24} color="#fff" />
+          </a>
+          <a
+            href="https://stackoverflow.com/users/story/12564237"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaStackOverflow size={24} color="#fff" />
+          </a>
         </Navbar>
       </Wrapper>
     </Container>

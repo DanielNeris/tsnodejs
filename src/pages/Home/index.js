@@ -1,7 +1,7 @@
 import React from "react";
 import { useSpring } from "react-spring";
 import { Container, TitleWrapper, StyledButton, Imagem } from "./styles";
-import test from "../../assets/test.png";
+import img from "../../assets/test.png";
 
 import Layout from "../../components/Layout";
 import Title from "../../components/Title";
@@ -13,12 +13,13 @@ export default function Home() {
     opacity: 1,
     from: { opacity: 0 }
   });
+
   return (
     <Layout vh id="home">
       <Container>
         <TitleWrapper style={Fade}>
           <Title>Hi,</Title>
-          <Title>I'm Julio Merisio,</Title>
+          <Title>I'm Daniel de Souza Neris,</Title>
           <SubTitle>A Full Stack Developer</SubTitle>
 
           <StyledButton
@@ -33,7 +34,7 @@ export default function Home() {
           </StyledButton>
         </TitleWrapper>
 
-        <Imagem src={test} />
+        <Imagem src={img} />
       </Container>
     </Layout>
   );

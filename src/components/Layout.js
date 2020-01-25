@@ -11,11 +11,12 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15rem;
+  /* margin-bottom: 15rem; */
   transition: all 0.2s;
 
   &:last-child {
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
+    padding: 50px 0;
   }
 
   @media ${props => props.theme.mediaQueries.large} {

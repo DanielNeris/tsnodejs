@@ -16,6 +16,10 @@ export const Container = styled.div`
     text-align: center;
     color: rgba(0, 0, 0, 0.54);
   }
+
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const Link = styled.a`
@@ -33,4 +37,8 @@ export const Link = styled.a`
   svg {
     margin-right: 1rem;
   }
+`;
+
+export const ContactLink = styled.a`
+  padding: 0 10px;
 `;
